@@ -1,0 +1,50 @@
+{
+  "name": "codebase-graphql-nodejs-typescript",
+  "version": "0.0.1",
+  "description": "A codebase (boilerplate) for GraphQL project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "dev": "nodemon bin/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diazharizky/codebase-graphql-nodejs-typescript.git"
+  },
+  "keywords": [
+    "graphql",
+    "ts"
+  ],
+  "author": "Diaz Harizky Firdaus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diazharizky/codebase-graphql-nodejs-typescript/issues"
+  },
+  "homepage": "https://github.com/diazharizky/codebase-graphql-nodejs-typescript#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.20",
+    "@types/config": "^0.0.38",
+    "@types/cors": "^2.8.12",
+    "@types/mocha": "^8.2.3",
+    "@types/node": "^16.0.0",
+    "@types/pino": "^6.3.8",
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
+    "chai": "^4.3.4",
+    "eslint": "^7.30.0",
+    "eslint-plugin-mocha": "^9.0.0",
+    "mocha": "^9.0.2",
+    "nodemon": "^2.0.9",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.0.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "apollo-server": "^3.4.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "graphql": "^15.6.1",
+    "pino": "^7.0.3"
+  }
+}
